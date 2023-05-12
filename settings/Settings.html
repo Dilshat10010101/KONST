@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css" >
+    <script src="../index.js"></script>
+    <title>YourArtGallery.com/settings</title>
+    
+</head>
+<body>
+    <nav class="Menu">
+        <ul class="menul">
+            <li><a href="../home/home.html"><b>Home</b></a></li>
+            <li><a href="../art/Art.html"><b>Art</b></a></li>
+            <li><a href="../about/About.html"><b>About</b></a></li>
+            <li><a href="../profile/Profile.html"><b>Profile</b></a></li>
+            <li><a href="../logout/Logout.html"><b>Logout</b></a></li>    
+            <a class="Settingsf" href="Settings.html"><img src="settings2.jpg"></a>
+        </ul>
+    </nav>
+    
+    <div class="settingsbuttons">
+        <h1>Settings</h1>
+        <button id="toggle" onclick="Toggle()">Dark mode on</button>
+    </div>
+    
+    <div onclick="Getinfoboxtextcolor()">
+        <button type="button" class="button" onclick="Logout2()">Ändra textfärg</button>
+    </div>
+
+    <div id="PopUpp">
+        <h3>Choose font type for the whole server</h3>
+        <button>Font 1</button>
+        <button>Font 2</button>
+        <button>Font 3</button>
+
+        <br>
+        <br>
+        <button id="ClosePopUpp" onclick="ClosePopUpp()">Stäng</button>
+    </div>
+
+    
+</body>
+</html>

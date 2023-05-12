@@ -1,0 +1,159 @@
+
+/*_________All_____________________________________________________________________*/
+nav ul {
+    list-style-type:none;
+    padding:0;
+    display:flex;
+    justify-content: center;
+    list-style-type: none;
+    margin:0;
+    
+}
+nav li {
+    margin-top: 1.7vw;
+    margin-left:6vw;
+    padding: 0.3vw;
+    background-color:rgb(44, 44, 44);
+    text-size-adjust: 2vw;
+    font-size: 2.5vw;
+    border-radius: 10px;
+    border: 1px solid rgb(49, 162, 190);
+}
+
+nav a{
+    text-decoration: none;
+    color:rgb(106, 168, 209);
+    
+}
+
+nav img{
+    margin-left: 30vw;
+    margin-top:1.35vw;
+    height: 3.5vw;
+}
+
+nav a:hover,
+nav a:focus{
+    color:rgb(59, 59, 255);
+}
+nav{
+    background-color: rgb(0, 0, 0);
+    height: 6vw;
+    width: 100%;
+}
+/*_________Register_____________________________________________________________*/
+body{
+    background-color:rgb(44, 44, 44);
+    background-image: url("background.jpg");
+    margin:0;
+}
+
+.nameForm {
+    margin-left: 35vw;
+    margin-right: 65vw;
+    align-items: center;
+    width: 50vw;
+    margin-top: 15vw;
+    box-sizing:border-box;
+
+
+}
+
+.nameForm fieldset{
+    width: 25vw;
+    background-color: rgb(51, 95, 133);
+    border-color: #629fd4;
+}
+.nameForm legend{
+    height:1vw;
+    background-color: rgb(255, 255, 255);
+}
+
+.img1{
+    float:left;
+    width:17vw;
+    margin-left: 15vw;
+    margin-top: -30vw;
+    border: 2vw;
+}
+
+.art2{
+   float:right;
+   margin-right: 15vw; 
+   margin-top: -30vw;
+   width: 17vw;
+}
+
+/*_________Home_________________________________________________*/
+.Homef{
+    color:rgb(59, 59, 255);
+
+}
+.introduction{
+    margin:1vw;
+    text-align: center;
+    color:#78AEDD;
+}
+
+/*_________Art__________________________________________________*/
+.Artf{
+    color:rgb(59, 59, 255);
+}
+
+/*_________About_________________________________________________*/
+.Aboutf{
+    color:rgb(59, 59, 255);
+}
+.aboutart{
+    padding-left: 3vw;
+    width: 90vw;
+
+}
+
+.Information{
+    color:#78AEDD;
+}
+
+/*_________Profile_______________________________________________*/
+.Profilef{
+    color:rgb(59, 59, 255);
+}
+/*_________Profile_______________________________________________*/
+.Logoutf{
+    color:rgb(59, 59, 255);
+}
+/*_________Settings______________________________________________*/
+.dark-mode {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.dark-mode-nav li{
+    background-color:aliceblue;
+
+}
+
+.dark-mode-nav{
+    background-color:rgb(177, 177, 177);
+}
+
+.settingsbuttons{
+    text-align: center;
+    display:block;
+    margin:2px;
+}
+
+#PopUpp{
+    display:none;
+    position:fixed;
+    top:20%;
+    left: 25%;
+    width: 50%;
+    height: 70%;
+    background-color: rgb(75, 75, 75);
+    text-align: center;
+    box-shadow: 1px 2px 2px rgb(115, 176, 233), 0 0 25px rgb(124, 177, 255), 0 0 5px rgb(82, 173, 196);
+    border: 5px;
+    border-style: solid;
+    border-color: #78AEDD;
+}
